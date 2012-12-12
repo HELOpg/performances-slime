@@ -2,7 +2,7 @@ adc => Gain g => blackhole;
 
 SawOsc s => JCRev j => Gain gg => Gain gate => dac;
 
-6000 => s.freq;
+600 => s.freq;
 
 0.0 => gate.gain;
 
@@ -35,9 +35,8 @@ function void OSCinput_shred()
         // grab the next message from the queue. 
         while( osc_data.nextMsg() != 0 )
         { 
-        <<< osc_data.getFloat() >>>;
         osc_data.getFloat() => gate.gain;
-	500::ms => now;
+	1500::ms => now;
 	0.0 => gate.gain;
 	}
     }       
