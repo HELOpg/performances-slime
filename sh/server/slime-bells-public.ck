@@ -4,6 +4,8 @@ static SlimeBells @ slime;
 }
 new SlimeBells @=> Bells.slime;
 
+<<< "Bells.slime.shake(0.9)" >>>;
+
 //Example Use
 
 //Bells.slime.shake(0.9); 
