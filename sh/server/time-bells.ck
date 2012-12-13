@@ -7,7 +7,7 @@ Shakers s => r;
         0.9 => s.energy;
         100 => s.objects;
         300 => s.freq;
-        0.7 => s.decay;
+        0.6 => s.decay;
 	7 => s.preset;
 
 0.7 => s.noteOn;
