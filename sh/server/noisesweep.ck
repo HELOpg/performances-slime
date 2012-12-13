@@ -32,7 +32,7 @@ function void OSCinput_shred()
 	0.0 => e.target;
 	0 => e.keyOn;
 	d => now;
-	10:ms => now;
+	10::ms => now;
 	}
     }       
 }
