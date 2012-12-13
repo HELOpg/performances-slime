@@ -1,1 +1,1 @@
-Slime.s.send("/slime/app/woosh/length", 100);
+Slime.s.send("/slime/app/woosh/fire", 0.3);
